@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Node (in case source code or PoC scripts are added later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables / secrets
+.env
+.env.local
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
